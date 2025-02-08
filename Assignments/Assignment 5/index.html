@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huckleberry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 16px;
+            color: #444;
+        }
+
+        .highlight {
+            color: #0077b6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .divider {
+            height: 30px;
+            background: #888;
+            margin: 20px 0;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            background: #ffcc00;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .divider {
+                height: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content h2 {
+                font-size: 16px;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Huckleberry</h1>
+                <p>An avant-garde agency focused on connecting <a href="#" class="highlight">passion</a> with <a href="#" class="highlight">logistics</a>.</p>
+                <p>A better way to solve the problems of tomorrow.</p>
+            </div>
+            <div>
+                <img src="avatar-placeholder.png" alt="Team" width="80">
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content">
+            <h2>Wealth comes from operations</h2>
+            <p>No modern business can thrive without developing a specialization in operations. Huckleberry has helped dozens of companies, from Fortune 50 monoliths to fast-growing Bay Area startups, achieve their goals and meet their KPIs by leveraging our extensive network of logistics experts.</p>
+            <p>Huckleberry was established in 2003 to help ambitious businesses discover their true potential. If that resonates, let’s chat!</p>
+        </div>
+    </div>
+
+</body>
+</html>
